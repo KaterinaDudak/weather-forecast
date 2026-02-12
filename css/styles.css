@@ -1,0 +1,105 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  height: 100vh;
+  background-color: #3399CC;
+  border: 25px solid #2B81AC;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: #fff;
+}
+.wrapper {
+  width: 1166px;
+  margin: 0 auto;
+}
+.title {
+  display: inline-block;
+  padding: 60px 0 35px;
+  font-size: 22px;
+}
+.icon{
+    font-size: 27px;
+}
+.list {
+  text-align: center;
+  padding: 0;
+  list-style: none;
+  font-size: 0;
+  border: 1px solid #fff;
+}
+.list__item {
+  display: inline-block;
+  padding: 26px 0 27px 0;
+  width: 25%;
+  border: 2px solid #fff;
+  font-size: 22px;
+  opacity: 0.7;
+  transition: all .1s ease-in;
+}
+.list__item:hover{
+    opacity: 1;
+    cursor: url(../img/cursor.svg), pointer;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
+.double {
+  width: 50%;
+}
+.big{
+    width: 100%;
+}
+.list__item-description{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4px;
+    height: 61px;  
+}
+.list__item-text {
+    margin-right: 12px;
+}
+.wi{
+    font-size: 42px;
+    margin-top: 4px;
+}
+.sky-blue{
+    background-color: #3399CC;
+}
+.mentol{
+   background-color: #33CCCC; 
+}
+.violet-red{
+background-color: #996699; 
+}
+.maroon{
+background-color: #C24747; 
+}
+.light-salmon{
+background-color: #E2674A; 
+}
+.orange{
+    background-color: #FFCC66; 
+}
+.sea-green{
+background-color: #99CC99; 
+}
+
+.dark-sea-green{
+background-color: #669999; 
+}
+.pink{
+    background-color: #CC6699;
+}
+
+.green{
+    background-color: #339966;
+}
+
+.purple{
+    background-color: #666699;
+}
+.paragraph{
+    font-size: 16px;
+    margin-top: 35px;
+}
