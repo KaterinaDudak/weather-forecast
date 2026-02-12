@@ -1,9 +1,9 @@
 * {
   box-sizing: border-box;
 }
+
 body {
   margin: 0;
-  height: 100vh;
   background-color: #3399CC;
   border: 25px solid #2B81AC;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
@@ -102,4 +102,5 @@ background-color: #669999;
 .paragraph{
     font-size: 16px;
     margin-top: 35px;
+    margin-bottom: 115px;
 }
